@@ -1,0 +1,131 @@
+* {
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    color: #888;
+}
+
+h2 {
+    margin: 0;
+    font-size: 1rem;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    height: 100vh;
+}
+
+.participantes {
+    background-color: white;
+    flex: 1 1 0;
+}
+
+.chat {
+    background-color: rgb(236, 236, 236);
+    flex: 4 1 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+.chat img {
+    width: 250px;
+}
+
+.chat h1 {
+    font-size: 3rem;
+    font-weight: bold;
+    margin-top: 10px;
+    margin-bottom: 0;
+
+}
+
+.chat p {
+    font-size: 1rem;
+    margin: 0;
+}
+
+.card-ppal {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    padding: 20px;
+    border-bottom: #999 1px solid;
+        
+    
+}
+
+.card-ppal img {
+    max-width: 40px;
+    border-radius: 50%;
+}
+
+.card-ppal-titulo {
+    flex-grow: 1;
+}
+
+.card-ppal p {
+    margin: 0;
+    font-size: 0.8rem;
+
+}
+
+.card {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    padding: 10px;
+    border-bottom: #999 1px solid;
+
+}
+
+
+.cardsegundo {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    padding: 10px;
+    border-top: #999 1px solid;
+    border-bottom: #999 1px solid;
+}
+
+
+.cardsegundo p {
+    margin: 0;
+    font-size: 0.8rem;
+    
+
+}
+
+.cardsegundo img {
+    max-width: 50px;
+    border-radius: 50%;
+}
+.card p {
+    margin: 0;
+    font-size: 0.8rem;
+
+}
+
+.card img {
+    max-width: 50px;
+    border-radius: 50%;
+}
+.card-boton {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    margin: 20px;
+    padding: 20px;
+    background-color: rgb(217, 184, 248);
+    color: white;
+    font-weight: bold;
+}
+
+span {
+    font-weight: bold;
+}
